@@ -4,15 +4,14 @@ body {
 
 h1 {
     font-size: 200px;
-    font-family: "bodoni 72 smallcaps";
+    font-family: "playfair display SC";
     margin: 0;
 }
 
 article {
     font-size: 15px;
-    font-family: "charter";
     font-weight: bold;
-    margin-left: 300px;
+    margin-left: 200px;
     line-height: 1.4;
     margin-top: 0;
     margin-right: 40px;
