@@ -1,22 +1,22 @@
 body {
   margin: 20px;
   background-color: #efefef;
-  
 }
 
 h1 {
-    font-size: 170px;
-    font-family: "bodoni 72 smallcaps", "playfair display sc", "times";
-    margin: 0;
+  font-size: 170px;
+  font-family: "bodoni 72 smallcaps", "playfair display sc", "times";
+  margin: 0;
 }
 
 article {
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 200px;
-    line-height: 1.4;
-    margin-top: 0;
-    margin-right: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 200px;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-right: 40px;
+  font-family: "times";
 }
 
 p {
@@ -35,4 +35,10 @@ li {
   font-weight: bold;
 }
 
-  
+.first {
+  margin-top: 10px;
+}
+
+.hide-btn {
+  margin-left: 200px;
+}
