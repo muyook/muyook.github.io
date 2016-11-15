@@ -3,27 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>About me</title>
-     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1><i>About Me</i></h1>
-    
-    <article>I was born in Ann Arbor, Michigan on December 11, 1997. At a young age,
+    <h1 onmouseover="style.color='mediumblue'" onmouseout="style.color='black'"><i>About Me</i></h1>
+
+    <article onmouseover="style.color='navy'" onmouseout="style.color='black'">I was born in Ann Arbor, Michigan on December 11, 1997. At a young age,
     I then moved to Southern California, where I grew up. At age seventeen, I moved
     to New York for college, leaving behind my dog. <br>
     I enjoy writing and ingesting inordinate amounts of caffeine. I also have an affinity
     for music, and I play guitar, bass, and piano. <br>
     I am currently a sophomore at Eugene Lang The New School for Liberal Arts as a
     psychology and culture and media double major. </article>
-      
+
     <ul>
-        <p>Favorites</p>
-          <li>Author: Chuck Palahniuk</li>
+        <p onmouseover="style.color='mediumblue'" onmouseout="style.color='black'">Favorites</p>
+        <button type="button" class="hide-btn">Hide</button>
+        <button type="button" class="show-btn">Show</button>
+        <div onmouseover="style.color='navy'" onmouseout="style.color='black'">
+          <li class="first">Author: Chuck Palahniuk</li>
           <li>Book: <i>Lullaby</i> by Chuck Palahniuk</li>
           <li>Movie: Heathers</li>
           <li>Bands: The Academy Is..., Cobra Starship, Fall Out Boy, The Killers, Rise Against, Taking Back Sunday</li>
+        </div>
     </ul>
-    
-    
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
